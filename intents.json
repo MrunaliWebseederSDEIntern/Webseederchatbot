@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Hi there",
+        "What's up",
+        "How are you",
+        "Hey there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! 👋 Welcome to WebSeeder. How can I help you today?",
+        "Hi there! Looking for WebSeeder services?",
+        "Hey! How can I assist you with WebSeeder today?"
+      ]
+    },
+    {
+  "tag": "about",
+  "patterns": [
+    "What is WebSeeder?",
+    "Tell me about WebSeeder",
+    "Who are you?",
+    "What does WebSeeder do?",
+    "Explain your company WebSeeder",
+    "What is your company about?",
+    "Describe WebSeeder as a company",
+    "What kind of company is WebSeeder?",
+    "What is your mission?",
+    "Give me details about WebSeeder"
+  ],
+  "responses": [
+    "WebSeeder is a digital solutions company offering web development, app development, and marketing services.",
+    "We at WebSeeder specialize in creating innovative web and digital solutions for businesses.",
+    "WebSeeder helps organizations with modern digital transformation services."
+  ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+    "How can I contact you?",
+    "Contact information",
+    "What is your email address?",
+    "What is your phone number?",
+    "How do I reach WebSeeder?",
+    "Can I call WebSeeder?",
+    "How do I connect with WebSeeder?",
+    "Where can I send a message?",
+    "Share WebSeeder contact details",
+    "Give me your official email"
+  ],
+  "responses": [
+    "You can reach us via email at info@webseeder.in 📩",
+    "Visit our contact page at http://www.webseeder.in/contact",
+    "You can connect with us directly through our website’s contact form."
+  ]
+},
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you provide?",
+        "Tell me about your services",
+        "What can you do for me?",
+        "Services",
+        "List your services",
+        "What kind of work do you do?",
+        "What solutions do you offer?",
+        "Can you help me with web development?",
+        "Do you provide app development?",
+        "Do you do digital marketing?"
+      ],
+      "responses": [
+        "We provide web development, app development, digital marketing, and customized IT solutions.",
+        "Our services include website design, mobile app development, and SEO/digital marketing.",
+        "At WebSeeder, we offer complete web solutions, from design to deployment."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Show me your projects",
+        "Portfolio",
+        "Work samples",
+        "Previous work",
+        "Your past work",
+        "Examples of your projects",
+        "Do you have a portfolio?",
+        "Show me your clients",
+        "What kind of projects have you done?",
+        "Can I see your work?"
+      ],
+      "responses": [
+        "You can check out our portfolio at http://www.webseeder.in/projects",
+        "We have worked on a variety of projects in web and app development. Visit our website for details.",
+        "Our projects showcase innovation and creativity. See more at our projects page."
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": [
+        "Do you have job openings?",
+        "Careers",
+        "Can I work at WebSeeder?",
+        "Hiring",
+        "Internship opportunities",
+        "Jobs at WebSeeder",
+        "Are you hiring?",
+        "I want to join your team",
+        "Work with WebSeeder",
+        "Any career opportunities?"
+      ],
+      "responses": [
+        "We regularly post job openings on our website. Please check the careers section at http://www.webseeder.in.",
+        "You can apply for internships or jobs at WebSeeder by visiting our careers page.",
+        "We welcome talented individuals! Please keep an eye on our website for current openings."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "Pricing",
+        "What are your rates?",
+        "Charges",
+        "How expensive are your services?",
+        "Tell me about your pricing",
+        "What’s the cost of your services?",
+        "Do you have packages?",
+        "How do you charge?",
+        "Give me your price details"
+      ],
+      "responses": [
+        "Our pricing depends on the type of service you choose. Please contact us for a customized quote.",
+        "We offer flexible pricing depending on your project requirements. Get in touch for details.",
+        "For pricing and packages, please visit our website or reach out to us directly."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I’m not sure I understood that. Could you rephrase? 🤔",
+        "Hmm, I don’t have an answer for that right now.",
+        "Sorry, I didn’t get that. Can you try asking differently?"
+      ]
+    }
+  ]
+}
