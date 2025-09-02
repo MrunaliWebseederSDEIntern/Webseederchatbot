@@ -1,0 +1,11 @@
+# Ignore virtual environment files/folders
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Ignore Python cache/compiled files
+__pycache__/
+*.pyc
+
+# Allow all other files
