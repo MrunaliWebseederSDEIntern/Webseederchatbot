@@ -49,5 +49,6 @@ print("chatBot is running!")
 while True:
     message = input("")
     ints = predict_class (message)
+    print("DEBUG Predictions:", ints)
     res = get_response (ints, intents)
-    print (res)
+    print ("bot:",res)
