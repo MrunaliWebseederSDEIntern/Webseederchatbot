@@ -11,7 +11,10 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 lemmatizer = WordNetLemmatizer()
 
-intents=json.loads(open('D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json').read())
+
+with open(r"D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json", encoding="utf-8") as f:
+    intents = json.load(f)
+
 
 words=[]
 classes=[]
@@ -64,6 +67,6 @@ sgd = tf.keras.optimizers.SGD(learning_rate=0.001,momentum=0.9,nesterov=True)
 
 model.compile(loss='categorical_crossentropy',optimizer=sgd, metrics= ['accuracy'])
 early_stop = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
-hist= model.fit(np.array(trainX),np.array(trainY),epochs=200,batch_size=8,validation_split=0.2,callbacks=[early_stop],verbose=1)
+hist= model.fit(np.array(trainX),np.array(trainY),epochs=250,batch_size=8,validation_split=0.2,callbacks=[early_stop],verbose=1)
 model.save("chatbot_webseedermodel.keras")
 print("Executed")
