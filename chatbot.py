@@ -4,11 +4,16 @@ import pickle
 import numpy as np
 import nltk
 
+with open(r"D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json", "r", encoding="utf-8") as file:
+    intents = json.load(file)
+
+
+
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json').read())
+
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -35,14 +40,20 @@ def predict_class(sentence):
     max_index = np.argmax(res)
     return [{'intent': classes[max_index], 'probability': str(res[max_index])}]
 
-def get_response(intents_list, intents_json):
-    tag = intents_list[0]['intent']
+def get_response(ints, intents_json):
+    if len(ints) == 0:  # no intent found
+        return random.choice([ 
+            "🤔 Sorry, I didn’t catch that.",
+            "⚡ I’m still learning! Can you try asking differently?",
+            "🙋 You can ask me about our services like web development, app development, AI solutions, and more!"
+        ])
+    
+    tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if i['tag'] == tag:
-            result = random.choice (i['responses'])
-            break
-    return result
+            return random.choice(i['responses'])
+
 
 print("chatBot is running!")
 
