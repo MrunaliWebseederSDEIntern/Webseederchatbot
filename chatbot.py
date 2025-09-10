@@ -41,19 +41,26 @@ def predict_class(sentence):
     return [{'intent': classes[max_index], 'probability': str(res[max_index])}]
 
 def get_response(ints, intents_json):
-    if len(ints) == 0:  # no intent found
-        return random.choice([ 
-            "🤔 Sorry, I didn’t catch that.",
+    if len(ints) == 0:  
+        return random.choice([
+            "🤔 Sorry, I didn’t understand that. Could you rephrase?",
             "⚡ I’m still learning! Can you try asking differently?",
             "🙋 You can ask me about our services like web development, app development, AI solutions, and more!"
         ])
     
     tag = ints[0]['intent']
-    list_of_intents = intents_json['intents']
-    for i in list_of_intents:
-        if i['tag'] == tag:
-            return random.choice(i['responses'])
+    prob = ints[0]['probability']
 
+    if float(prob) < 0.4:  
+        return random.choice([
+            "🤔 Hmm, I’m not sure what you mean.",
+            "⚡ Can you please clarify?",
+            "🙋 Try asking me about our services like web dev, app dev, or AI solutions!"
+        ])
+
+    for intent in intents_json['intents']:
+        if intent['tag'] == tag:
+            return random.choice(intent['responses'])
 
 print("chatBot is running!")
 
