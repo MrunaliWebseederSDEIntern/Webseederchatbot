@@ -24,11 +24,11 @@
         "Good afternoon"
       ],
       "responses": [
-        "Hello! 👋 Welcome to WebSeeder Technologies. How can I help you today? Looking for web or app solutions? WebSeeder Technologies specializes in web development, mobile app development, and digital marketing services.",
-        "Hi there! Ready to explore WebSeeder Technologies services? Let me know how I can assist you! We help businesses grow with innovative digital solutions, from custom websites to full-scale apps.",
-        "Greetings! What can I help you with? We offer web, app, and digital solutions at WebSeeder.Our team is passionate about crafting innovative tech solutions to boost your business.",
-        "Welcome to WebSeeder Technologies! 😊 What would you like to explore today?WebSeeder offers end-to-end digital solutions, helping brands thrive with cutting-edge technology.",
-        "Hi! Need help with anything specific? We're here to assist with all your digital needs!From building websites to developing apps, WebSeeder makes your digital goals a reality."
+        "Hello! 👋 Welcome to WebSeeder Technologies pvt.Ltd . How can I help you today? Looking for web or app solutions? WebSeeder Technologies specializes in web development, mobile app development, and digital marketing services.",
+        "Hi there! Ready to explore WebSeeder Technologies pvt.Ltd services? Let me know how I can assist you! We help businesses grow with innovative digital solutions, from custom websites to full-scale apps.",
+        "Greetings! What can I help you with? We offer web, app, and digital solutions at WebSeeder Technologies pvt.Ltd.Our team is passionate about crafting innovative tech solutions to boost your business.",
+        "Welcome to WebSeeder Technologies pvt.Ltd! 😊 What would you like to explore today?WebSeeder offers end-to-end digital solutions, helping brands thrive with cutting-edge technology.",
+        "Hi! Need help with anything specific? We're here to assist with all your digital needs!From building websites to developing apps, WebSeeder Technologies pvt.Ltd makes your digital goals a reality."
       ]
     },
     {
@@ -122,6 +122,7 @@
   "tag": "projects",
   "patterns": [
     "Show me your projects",
+    "projects?",
     "Portfolio",
     "Work samples",
     "Previous work",
@@ -149,6 +150,7 @@
   "patterns": [
     "Do you have job openings?",
     "Careers",
+    "internship?",
     "Can I work at WebSeeder?",
     "Hiring",
     "Internship opportunities",
@@ -178,6 +180,7 @@
   "tag": "pricing",
   "patterns": [
     "How much does it cost?",
+    "cost?",
     "Pricing",
     "What are your rates?",
     "Charges",
@@ -285,6 +288,7 @@
   "tag": "Refund policy",
   "patterns": [
     "What if I don’t like the final product?",
+    "refund policy?",
     "Do you offer revisions or refunds?",
     "How do you handle unsatisfied clients?",
     "Is there a refund policy?",
@@ -330,6 +334,7 @@
       "patterns": [
         "Tell me about website development",
         "tell me about web development",
+        "web",
         "web development",
         "web-development",
         "Do you make websites?",
@@ -350,6 +355,10 @@
       "tag": "hybrid_app_development",
       "patterns": [
         "Tell me about app development",
+        "app development",
+        "app",
+        "android development",
+        "IOS",
         "Do you make apps?",
         "Can you build me an app?",
         "Mobile app services",
@@ -367,6 +376,10 @@
       "tag": "custom_software",
       "patterns": [
         "Tell me about custom software",
+        "custom software?",
+        "software development",
+        "automation?",
+        "custom software",
         "Do you build custom software?",
         "Automation services",
         "I need software for my business",
@@ -398,7 +411,6 @@
         "Data science services"
       ],
       "responses": [
-        "🤖 We deliver **AI & Machine Learning solutions** that help businesses innovate and automate decisions.",
         "Our AI/ML expertise includes:\n- Predictive analytics 📊\n- Natural Language Processing (NLP)\n- Computer Vision 🖼️\n- Recommendation Systems\n- Intelligent automation"
       ]
     },
@@ -408,6 +420,8 @@
         "Tell me about blockchain",
         "blockchain",
         "Blockchain",
+        "tell me about blockchain",
+        "blockchain services?",
         "Do you work on blockchain?",
         "Blockchain services",
         "Smart contracts",
@@ -442,8 +456,9 @@
     "tag": "goodbye",
     "patterns": [
     "bye",
-    "thankyou",
+    "Bye",
     "thanku",
+    "thankyou!",
     "goodbye",
     "see you later",
     "talk to you soon",
