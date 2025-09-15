@@ -5,8 +5,21 @@
       "patterns": [
         "Hi",
         "hi",
+        "hii",
+        "hiii",
+        "hiiii",
+        "helloo",
+        "helloooo",
+        "helo",
+        "helloooooo",
+        "helooo",
         "hello",
         "Hello",
+        "heyy",
+        "heyyy",
+        "heyyyyy",
+        "heyyyyyyy",
+        "heyyyyyy",
         "Hey",
         "Good morning",
         "Good evening",
@@ -35,6 +48,8 @@
       "tag": "about",
       "patterns": [
         "What is WebSeeder?",
+        "i want to know u",
+        "who are you?",
         "Tell me about WebSeeder",
         "Who are you?",
         "What does WebSeeder do?",
@@ -97,6 +112,7 @@
     "What services do you provide?",
     "what are your services?",
     "services?",
+    "what all services are provided by u",
     "Tell me about your services",
     "What can you do for me?",
     "Services",
@@ -330,16 +346,34 @@
 ]
 },
 {
-      "tag": "website_development",
+  "tag": "about_web_development",
+  "patterns": [
+    "What is web development?",
+    "what exactly is web development?",
+    "Tell me about web development",
+    "can you explain what is web development?",
+    "web dev meaning?",
+    "Explain web development",
+    "Web development meaning"
+  ],
+  "responses": [
+    "🌐 Web development is the process of building websites and web applications that run smoothly on browsers. It involves frontend (UI/UX), backend (server & database), and integration with business logic.",
+    "🌐 Web development is the process of creating, building, and maintaining websites and web applications. It includes:\n\n- **Front-End Development (Client-Side):** Designing the user interface (UI) that users interact with directly using HTML, CSS, JavaScript, React, etc.\n- **Back-End Development (Server-Side):** Managing server logic, databases, and APIs using technologies like Node.js, Django, Flask, or PHP.\n- **Full-Stack Development:** A combination of both front-end and back-end.\n\nWeb development ensures websites are fast, responsive, secure, and user-friendly."
+  ]
+},
+{
+      "tag": "website_development_services",
       "patterns": [
-        "Tell me about website development",
-        "tell me about web development",
-        "web",
-        "web development",
-        "web-development",
+        "Tell me about website development services",
+        "what do you provide in web development?",
+        "what are your web devlopment services?",
+        "tell me about web development service",
+        "web services?",
+        "web development services",
+        "web-development services",
         "Do you make websites?",
         "Can you build me a website?",
-        "Website development services",
+        "Website developmentservices?",
         "I need a website",
         "Do you design websites?",
         "Web solutions",
@@ -347,18 +381,35 @@
         "Create a site for me"
       ],
       "responses": [
-        "🌐 At WebSeeder, we provide **end-to-end website development services**, including:\n- Custom Website Design\n- Responsive Development\n- E-commerce Solutions\n- CMS (WordPress, etc.)\n- SEO Optimization\n\nWe make sure your website is **fast, secure, and user-friendly**.",
-        "We design and develop websites that are **modern, scalable, and business-focused** 🚀.\nFrom a small portfolio to a large enterprise site, we deliver results."
+        "🌐 At WebSeeder, we provide **end-to-end website development services**, including:\n- Custom Website Design\n- Responsive Development\n- E-commerce Solutions\n- CMS (WordPress, etc.)\n- SEO Optimization\n\nWe make sure your website is **fast, secure, and user-friendly**."
       ]
     },
     {
-      "tag": "hybrid_app_development",
+  "tag": "about_app_development",
+  "patterns": [
+    "What is app development?",
+    "what is app devlopment?",
+    "what is android development?",
+    "explain app devlopment",
+    "app dev meaning?",
+    "Tell me about app development",
+    "Explain app development",
+    "App development meaning"
+  ],
+  "responses": [
+        "📱 App development is the process of creating mobile applications for platforms like **Android** and **iOS**. It covers:\n\n- **Native App Development:** Apps built specifically for one platform (Java/Kotlin for Android, Swift for iOS).\n- **Cross-Platform Development:** Single codebase apps that run on multiple platforms (Flutter, React Native).\n- **UI/UX Design:** Ensuring apps are intuitive, visually appealing, and easy to use.\n- **App Deployment & Maintenance:** Publishing apps on Play Store/App Store and keeping them updated.\n\nApps can be used for e-commerce, social networking, productivity, or entertainment.\n"
+  ]
+      },
+    {
+      "tag": "hybrid_app_development_services",
       "patterns": [
-        "Tell me about app development",
-        "app development",
-        "app",
-        "android development",
-        "IOS",
+        "Tell me about app development services",
+        "what are your app development services?",
+        "what do you provide in app development?",
+        "app development services",
+        "app services",
+        "android development services",
+        "IOS services",
         "Do you make apps?",
         "Can you build me an app?",
         "Mobile app services",
@@ -368,8 +419,8 @@
         "Cross-platform apps"
       ],
       "responses": [
-        "📱 We create **hybrid mobile applications** that run smoothly on both Android & iOS using modern frameworks (React Native, Flutter).",
-        "Our app development includes:\n- Native & Cross-platform apps\n- Seamless UI/UX\n- API Integrations\n- App Store & Play Store deployment ✅"
+
+        "✅ At Webseeder Technologies pvt.Ltd , our App Development Services include:\n\n1️⃣ Native Android & iOS App Development\n2️⃣ Cross-platform Apps (Flutter, React Native)\n3️⃣ Enterprise & Business Apps\n4️⃣ Educational & E-learning Apps\n5️⃣ On-demand Service Apps\n6️⃣ Maintenance & Support\n\n👉 We make apps that are scalable, user-friendly, and business-driven."
       ]
     },
     {
@@ -392,18 +443,40 @@
       ]
     },
     {
-      "tag": "ai_ml",
+  "tag": "about_aiml",
+  "patterns": [
+    "explain aiml",
+    "what is ai?",
+    "what is aiml?",
+    "What is AI and ML?",
+    "Can you explain ai ml?",
+    "what is ai ml?",
+    "Tell me about AI/ML",
+    "Explain artificial intelligence and machine learning",
+    "What is machine learning and artificial intelligence?",
+    "AI/ML meaning"
+  ],
+  "responses": [
+    "🤖 Artificial Intelligence (AI) and Machine Learning (ML) are technologies that enable systems to analyze data, learn patterns, and make decisions with minimal human intervention.",
+    "🤖 AI (Artificial Intelligence) and ML (Machine Learning) are technologies that allow machines to simulate human intelligence and learn from data.\n\n- **AI:** Focuses on making systems capable of performing tasks that usually require human intelligence, like decision-making, problem-solving, or understanding language.\n- **ML:** A subset of AI where systems learn patterns from data and improve automatically without being explicitly programmed.\n\nPractical uses of AI/ML include:\n- Predictive analytics 📊 (forecasting trends)\n- Computer vision 👁️ (face recognition, image detection)\n- NLP 🗣️ (chatbots, voice assistants)\n- Recommendation systems 🎯 (Netflix, Amazon suggestions)\n"
+  ]
+},
+    {
+      "tag": "ai_ml_services",
       "patterns": [
         "Tell me about AI solutions",
-        "aiml",
-        "ai",
-        "ml",
-        "AIML",
-        "AI and ML",
-        "ai and ml",
-        "Aritifical intelligence",
-        "machine learning",
-        "Do you provide machine learning?",
+        "what do you provide in ai ml?",
+        "aiml service/servvices",
+        "ai services",
+        "ml services",
+        "AIML services",
+        "AI and ML service",
+        "ai and ml services",
+        "Aritifical intelligence services",
+        "machine learning services",
+        "Aritifical intelligence service",
+        "machine learning service",
+        "Do you provide machine learning service?",
         "AI services",
         "ML services",
         "AI & ML development",
@@ -415,12 +488,34 @@
       ]
     },
     {
-      "tag": "blockchain",
+  "tag": "about_blockchain",
+  "patterns": [
+    "What is blockchain development?",
+    "explain blockchain",
+    "what exactly is bloackchain?",
+    "can you please explain blockchain?",
+    "can you tell what bloackchain is?",
+    "bloackchain?",
+    "bloackchain meaning?",
+    "Tell me about blockchain",
+    "Explain blockchain development",
+    "Blockchain meaning"
+  ],
+  "responses": [
+    "🔗 Blockchain development is the process of building decentralized applications and solutions using distributed ledger technology. It ensures transparency, immutability, and security in digital transactions.",
+  "🔗 Blockchain is a **decentralized and secure digital ledger technology** that records transactions across many computers in a way that cannot be altered.\n\nIt is the foundation of **cryptocurrencies (Bitcoin, Ethereum, etc.)** but has uses beyond finance, such as:\n\n- **Smart Contracts:** Self-executing contracts with predefined rules.\n- **Decentralized Applications (dApps):** Apps running on blockchain instead of centralized servers.\n- **NFTs & Tokenization:** Unique digital assets verified through blockchain.\n- **Secure Data Sharing:** Trusted record-keeping without central authority.\n\nBlockchain ensures **transparency, immutability, and trust** in digital interactions.\n"
+  ]
+},
+    {
+      "tag": "blockchain_services",
       "patterns": [
-        "Tell me about blockchain",
-        "blockchain",
-        "Blockchain",
-        "tell me about blockchain",
+        "Tell me about blockchain services",
+        "what are your bloackchain services?",
+        "what do you provide in bloachchain?",
+        "what bloackchain services do you provide?",
+        "blockchain services",
+        "Blockchain service",
+        "tell me about blockchain service",
         "blockchain services?",
         "Do you work on blockchain?",
         "Blockchain services",
@@ -456,6 +551,10 @@
     "tag": "goodbye",
     "patterns": [
     "bye",
+    "byee",
+    "byeee!",
+    "thankyouuu",
+    "thankyou",
     "Bye",
     "thanku",
     "thankyou!",
@@ -467,7 +566,10 @@
     "ok bye",
     "thanks bye",
     "see you",
-    "later"
+    "thanks for helping",
+    "later",
+    "thenks!",
+    "thenks"
   ],
   "responses": [
     "👋 Goodbye! Have a great day ahead!",
