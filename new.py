@@ -67,6 +67,6 @@ sgd = tf.keras.optimizers.SGD(learning_rate=0.001,momentum=0.9,nesterov=True)
 
 model.compile(loss='categorical_crossentropy',optimizer=sgd, metrics= ['accuracy'])
 early_stop = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
-hist= model.fit(np.array(trainX),np.array(trainY),epochs=250,batch_size=8,validation_split=0.2,callbacks=[early_stop],verbose=1)
+hist= model.fit(np.array(trainX),np.array(trainY),epochs=230,batch_size=8,validation_split=0.2,callbacks=[early_stop],verbose=1)
 model.save("chatbot_webseedermodel.keras")
 print("Executed")
