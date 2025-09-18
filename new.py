@@ -11,10 +11,13 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 lemmatizer = WordNetLemmatizer()
 
+import os
 
-with open(r"D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json", encoding="utf-8") as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INTENTS_PATH = os.path.join(BASE_DIR, "Include", "intents.json")
+
+with open(INTENTS_PATH, encoding="utf-8") as f:
     intents = json.load(f)
-
 
 words=[]
 classes=[]
