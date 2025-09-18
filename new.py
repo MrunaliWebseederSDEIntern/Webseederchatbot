@@ -11,8 +11,10 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 lemmatizer = WordNetLemmatizer()
 
-import os
+nltk.download('punkt')
+nltk.download('wordnet')
 
+import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INTENTS_PATH = os.path.join(BASE_DIR, "Include", "intents.json")
 
