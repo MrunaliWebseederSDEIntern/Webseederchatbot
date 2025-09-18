@@ -3,8 +3,12 @@ import json
 import pickle
 import numpy as np
 import nltk
+import os
 
-with open(r"D:\Webseeder-chatbot\Webseeder-chatbot\Include\intents.json", "r", encoding="utf-8") as file:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INTENTS_PATH = os.path.join(BASE_DIR, "Include", "intents.json")
+
+with open(INTENTS_PATH, "r", encoding="utf-8") as file:
     intents = json.load(file)
 
 
@@ -70,3 +74,4 @@ while True:
     print("DEBUG Predictions:", ints)
     res = get_response (ints, intents)
     print ("bot:",res)
+
