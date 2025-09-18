@@ -82,6 +82,10 @@
         "How can I contact you?",
         "Contact information",
         "What is your email address?",
+        "what is your email?",
+        "contact?",
+        "email?",
+        "email",
         "What is your phone number?",
         "How do I reach WebSeeder?",
         "Can I call WebSeeder?",
@@ -580,4 +584,5 @@
 
   ]
 }
+
 
