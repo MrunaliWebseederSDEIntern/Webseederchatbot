@@ -68,10 +68,11 @@ def get_response(ints, intents_json):
 print("chatBot is running!")
 
 while True:
-    message = input("Welcome to Webseeder Technologies Pvt.ltd! Enter any message")
+    message = input("Enter any message")
     ints = predict_class (message)
     print("DEBUG Predictions:", ints)
     res = get_response (ints, intents)
     print ("bot:",res)
+
 
 
