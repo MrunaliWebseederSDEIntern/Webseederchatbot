@@ -15,7 +15,7 @@ nltk.download('wordnet')
 
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INTENTS_PATH = os.path.join(BASE_DIR, "intents.json")
+INTENTS_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "data", "intents.json"))
 
 with open(INTENTS_PATH, encoding="utf-8") as f:
     intents = json.load(f)
