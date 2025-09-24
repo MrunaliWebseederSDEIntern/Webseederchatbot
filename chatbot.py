@@ -2,19 +2,18 @@ import random
 import json
 import pickle
 import numpy as np
+
 import nltk
 import os
+from nltk.stem import WordNetLemmatizer
+from keras.models import load_model
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INTENTS_PATH = os.path.join(BASE_DIR, "Include", "intents.json")
+INTENTS_PATH = os.path.join(BASE_DIR, "intents.json")
 
 with open(INTENTS_PATH, "r", encoding="utf-8") as file:
     intents = json.load(file)
 
-
-
-from nltk.stem import WordNetLemmatizer
-from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
 
@@ -69,9 +68,10 @@ def get_response(ints, intents_json):
 print("chatBot is running!")
 
 while True:
-    message = input("")
+    message = input("Welcome to Webseeder Technologies Pvt.ltd! Enter any message")
     ints = predict_class (message)
     print("DEBUG Predictions:", ints)
     res = get_response (ints, intents)
     print ("bot:",res)
+
 
