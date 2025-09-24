@@ -9,7 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INTENTS_PATH = os.path.join(BASE_DIR, "intents.json")
+INTENTS_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "data", "intents.json"))
 
 with open(INTENTS_PATH, "r", encoding="utf-8") as file:
     intents = json.load(file)
