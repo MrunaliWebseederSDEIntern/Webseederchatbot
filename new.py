@@ -6,7 +6,6 @@ import tensorflow as tf
 
 import nltk
 from nltk.stem import WordNetLemmatizer
-
 from tensorflow.keras.callbacks import EarlyStopping
 
 lemmatizer = WordNetLemmatizer()
@@ -16,7 +15,7 @@ nltk.download('wordnet')
 
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INTENTS_PATH = os.path.join(BASE_DIR, "Include", "intents.json")
+INTENTS_PATH = os.path.join(BASE_DIR, "intents.json")
 
 with open(INTENTS_PATH, encoding="utf-8") as f:
     intents = json.load(f)
