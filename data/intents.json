@@ -115,6 +115,7 @@
   "patterns": [
     "What services do you provide?",
     "what are your services?",
+    "service",
     "services?",
     "what all services are provided by u",
     "Tell me about your services",
@@ -584,5 +585,6 @@
 
   ]
 }
+
 
 
